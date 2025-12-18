@@ -1,9 +1,10 @@
-Every Python code needed to do electron microscopy
+Optimized Python code to do electron microscopy
 
 Principles
 
+- Each notebook should self-contained so that it can be passed between emails and Slack.
+- Only use for-loop for sequantial tasks
 - Don't import uncommon Python packages Ex) `bobleesj.widget`
-- Each notebook is self-contained so that it can be passed between emails and Slack
 
 Scope
 
