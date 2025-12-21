@@ -2,6 +2,8 @@
 
 Optimized Python code for electron microscopy.
 
+> *Squeeze every picoemter, every nanosecond.*
+
 ## Principles
 
 - Each notebook should be self-contained so that it can be passed between emails and Slack
