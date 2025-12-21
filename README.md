@@ -78,7 +78,8 @@ Examples:
 - **Prefer ASCII diagrams over text**: Visualize tensor operations instead of explaining them
 - **Sentence case for headers**: Only capitalize the first letter (e.g., "Step 1: Extract patches" not "Step 1: Extract Patches")
 - **No horizontal rules**: Don't use `---` separators in markdown cells
-- Use descriptive variable names
+- **Use `text` language for ASCII diagrams**: Use triple backticks with `text` (e.g., ` ```text `) instead of bare triple backticks
+- **Use descriptive variable names**: These tutorials are read by beginners who may not share field-specific acronyms. Use `diffraction_pattern` instead of `DP`, `radius_values` instead of `r_vals`, `center_row` instead of `x0`
 - Print tensor shapes after operations
 - Include `# comments` explaining non-obvious steps
 - Prefer `view` over `reshape` when possible (zero-copy)
